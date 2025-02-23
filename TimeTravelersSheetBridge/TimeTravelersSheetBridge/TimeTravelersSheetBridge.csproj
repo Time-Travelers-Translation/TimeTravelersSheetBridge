@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>TimeTravelersSheetBridge</AssemblyName>
+    <RootNamespace>UI.TimeTravelersSheetBridge</RootNamespace>
+    <Version>1.0.0</Version>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="config.json.user">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="7.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrossCutting.Core.Contract\CrossCutting.Core.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Domain.GoogleSheetsManagement.Contract\Logic.Domain.GoogleSheetsManagement.Contract.csproj" />
+    <ProjectReference Include="..\Mappings.TimeTravelersSheetBridge\Mappings.TimeTravelersSheetBridge.csproj" />
+  </ItemGroup>
+</Project>

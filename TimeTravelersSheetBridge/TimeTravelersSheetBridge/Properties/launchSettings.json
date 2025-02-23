@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TimeTravelersSheetBridge": {
+      "commandName": "Project",
+      "commandLineArgs": "-m c1 -i D:\\Users\\Kirito\\Desktop\\reverse_engineering\\time_travelers\\3ds\\work\\text_work\\chapters\\chapter1\\pck"
+    }
+  }
+}

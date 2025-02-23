@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	<RootNamespace>Logic.Business.InjectionManagement</RootNamespace>
+	<AssemblyName>Logic.Business.InjectionManagement</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrossCutting.Core.Contract\CrossCutting.Core.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Business.TimeTravelersManagement.Contract\Logic.Business.TimeTravelersManagement.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Business.TranslationManagement.Contract\Logic.Business.TranslationManagement.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Domain.Kuriimu2.KomponentAdapter.Contract\Logic.Domain.Kuriimu2.KomponentAdapter.Contract.csproj" />
+    <ProjectReference Include="..\Logic.Business.InjectionManagement.Contract\Logic.Business.InjectionManagement.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

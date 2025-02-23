@@ -1,0 +1,33 @@
+[
+  {
+    "Name": "Logic.Business.TimeTravelersManagement",
+    "Entries": [
+      {
+        "Key": "PatchMapPath",
+        "Value": "map.json"
+      }
+    ]
+  },
+  {
+    "Name": "Logic.Business.TranslationManagement",
+    "Entries": [
+      {
+        "Key": "TranslationSheetId",
+        "Value": ""
+      }
+    ]
+  },
+  {
+    "Name": "Logic.Domain.GoogleSheetsManagement.OAuth2",
+    "Entries": [
+      {
+        "Key": "ClientId",
+        "Value": ""
+      },
+      {
+        "Key": "ClientSecret",
+        "Value": ""
+      }
+    ]
+  }
+]
